@@ -1,0 +1,52 @@
+/* ==========================================================================
+   LitLore Academy - CSS Variables & Design System
+   ========================================================================== */
+
+:root {
+  /* Brand Colors (Extracted from Logo & Academic Direction) */
+  --color-primary: #0D3B2E;         /* Deep Forest/Emerald Green */
+  --color-primary-dark: #061E16;    /* Ultra Deep Dark Green */
+  --color-primary-light: #165A47;   /* Medium Academic Green */
+  --color-primary-subtle: #EDF4F0;  /* Very Soft Green Tint */
+  
+  --color-accent-gold: #C8A962;     /* Warm Luxurious Gold */
+  --color-accent-gold-hover: #B5934C;
+  --color-accent-gold-soft: #F9F5EC;
+  
+  --color-bg-main: #FAF8F5;         /* Soft Off-White Editorial Background */
+  --color-bg-surface: #FFFFFF;      /* Clean White Surface */
+  --color-bg-alt: #F3EFE7;          /* Slightly Darker Soft Cream */
+  
+  --color-text-main: #1C2520;       /* Dark Charcoal Green (High Contrast) */
+  --color-text-muted: #55665D;     /* Readable Muted Text */
+  --color-text-light: #809187;     /* Light Muted Text */
+  --color-text-on-dark: #FAF8F5;   /* Crisp Light Text for Dark Sections */
+  
+  --color-border: #E5DFC0;          /* Soft Golden Border Tint */
+  --color-border-light: #EDE8DF;    /* Fine Divider Line */
+  --color-border-dark: rgba(255, 255, 255, 0.12);
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing */
+  --section-padding: 6.5rem 1.5rem;
+  --section-padding-mobile: 4rem 1.25rem;
+  --container-max-width: 1240px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(13, 59, 46, 0.04);
+  --shadow-md: 0 8px 24px rgba(13, 59, 46, 0.08);
+  --shadow-lg: 0 16px 40px rgba(13, 59, 46, 0.12);
+  --shadow-hover: 0 20px 48px rgba(13, 59, 46, 0.15);
+
+  /* Transitions & Border Radius */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}
